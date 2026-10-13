@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apícola Vitale</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+
+<body>
+    <header>
+        
+        <a href="./index.html">
+            <img src="./assets/img/logo.png" alt="logo apicola vitale" loading="lazy" class="logo">
+        </a>
+
+        <nav class="menu">
+            <ul class="menu-principal">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#product">Productos</a></li>
+                <li><a href="./pages/resenia.html">Reseña</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <!-- <span class="material-symbols-outlined"> --></span>
+            </ul>
+            
+        </nav>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    </header>
+    
+
+
+    <main class="container-main">
+        <div class="description">
+        <h1>El legado natural de nuestra familia. Pasión apícola de generación en generación.</h1>
+        <!-- <h2>Productos destacados</h2> -->
+        <p>En Apícola Vitale dedicamos nuestra vida al cuidado de las abejas con el mismo respeto y pasión por la naturaleza que nos transmitieron nuestros abuelos. Somos una empresa familiar, y hoy nos enorgullece compartir todo ese legado y conocimiento.</p>
+        <p>A través de esta página podrás adquirir nuestra clásica miel 100% pura y artesanal, junto con una amplia variedad de derivados de la colmena pensados para tu bienestar. También acompañamos a otros productores y apasionados del sector. Por eso ofrecemos un catálogo especializado que incluye la venta de productos vivos, abejas reinas con genética seleccionada, cuadros, núcleos y todo el material necesario para que tu propio apiario crezca y prospere.</p>
+        <p>Desde el campo hasta tu mesa, o directo a tu colmenar, te garantizamos calidad, dedicación y la verdadera esencia de la apicultura tradicional.</p>
+        </div>
+    </main>
+    
+    <!-- <nav class="aside">
+        <ul class="menu-categorias">
+            <li>Hombre</li>
+            <li>Mujer</li>
+            <li>Niños</li>
+        </ul>
+    </nav> -->
+
+    <div class="container-product">
+        <h2>NUESTRO CATALOGO</h2>
+        
+        <h3 id="product" class="description">Descripción de los productos</h3>
+    </div>
+
+    <section class="product-container">
+        
+        <article class="product-card">
+            
+            <img src="./assets/img/miel.jpg" alt="Mi producto" loading="lazy" class="product-img">
+
+            <div class="product-content">
+                <span class="product-category">Categorias</span>
+
+                <h4 class="product-title">Titulo del producto</h4>
+
+                <p class="product-description">Descripción del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <p class="product-price">
+                    <span>Precio: $</span>
+                    <span>99.99</span>
+                </p>
+
+                <button type="button" class="product-button">Agregar al carrito</button>
+            
+            </div>
+        
+        </article>
+
+        <article class="product-card">
+            
+            <img src="./assets/img/polen.jpg" alt="Mi producto" loading="lazy" class="product-img">
+
+            <div class="product-content">
+                <span class="product-category">Categorias</span>
+
+                <h4 class="product-title">Titulo del producto</h4>
+
+                <p class="product-description">Descripcion del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <p class="product-price">
+                    <span>Precio: $</span>
+                    <span>99.99</span>
+                </p>
+
+                <button type="button" class="product-button">Agregar al carrito</button>
+            
+            </div>
+        
+        </article>
+
+        <article class="product-card">
+            
+            <img src="./assets/img/propoleo.jpg" alt="Mi producto" loading="lazy" class="product-img">
+
+            <div class="product-content">
+                <span class="product-category">Categorias</span>
+
+                <h4 class="product-title">Titulo del producto</h4>
+
+                <p class="product-description">Descripcion del producto. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <p class="product-price">
+                    <span>Precio: $</span>
+                    <span>99.99</span>
+                </p>
+
+                <button type="button" class="product-button">Agregar al carrito</button>
+            
+            </div>
+        
+        </article>        
+        
+    </section>
+    
+    <section id="resenia">
+    </section>
+    
+    <section id="contacto">
+    </section>
+
+    </div>
+
+        <div class="container-product">
+        <h2>FORMULARIO DE CONTACTO</h2>
+        
+        <h3 id="product" class="description">Envianos tu consulta y nos comunicaremos a la brevdad.</h3>
+    </div>
+
+    <form action="https://formspree.io/f/mwlvbprk" method="POST">
+
+      <!-- Nombre -->
+      <div class="form-group">
+        <label for="nombre">Nombre y apellido</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+
+      <!--  MAIL -->
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <!-- Mensaje -->
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+      </div>
+
+      <!-- Enviar -->
+      <button type="submit" class="btn-submit">Enviar mensaje</button>
+
+</form>
+  </div>
+
+<footer class="footer">
+  <div class="footer-container">
+    
+    <div class="footer-col">
+      <h3>Apícola Vitale</h3>
+      <p>Pasión apícola de generación en generación. Llevando la verdadera esencia de la apicultura tradicional directo desde el campo hasta tu mesa y colmenar.</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contacto</h3>
+      <ul>
+        <li>Miramar, Buenos Aires</li>
+        <li>+54 9 2291 465555</li>
+        <li>info@apicolavitale.com</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Apícola Vitale. Todos los derechos reservados.</p>
+  </div>
+  
+</footer>
+
+</body>
+</html>
